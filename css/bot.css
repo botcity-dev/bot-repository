@@ -1,0 +1,71 @@
+#botPanel{
+	font-family: "Source Code Pro","monaco","PT Mono","Courier",monospace;
+	font-weight:400;
+	font-size:14px;
+	-webkit-tap-highlight-color: transparent;
+    -webkit-font-smoothing: antialiased;
+	width:75vw;
+	max-width:1280px;
+	margin:auto;
+	margin-top:5vh;
+}
+
+#botName{
+	font-family:"Noto Sans", sans-serif;
+	font-size:42px;
+	font-weight:bold;
+}
+
+#botAuthor{
+	margin-bottom:30px;
+}
+
+#botAuthorName{
+
+}
+
+#botShortDescription{
+	margin-bottom:20px;
+}
+
+#botDescription{
+	margin-top:30px;
+	margin-bottom:30px;
+}
+
+#bot_properties{
+	line-height:25px;
+	margin-bottom:50px;
+}
+
+.card_bot_tags_bot{
+	margin-top:6px;
+	display:flex;
+}
+
+.card_bot_tag_bot{
+	font-size:14px;
+	font-weight:bold;
+	color:#888888;
+	background-color:#dddddd;
+	border-radius:5px;
+	padding:2px 8px;
+	margin-right:3px;
+}
+
+.card_bot_0_margin{
+	margin-left:0px !important;
+}
+
+.video-container {
+    position: relative;
+    height: 0;
+	margin-top:20px;
+}
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}

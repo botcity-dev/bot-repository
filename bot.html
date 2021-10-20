@@ -1,0 +1,34 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="./css/main.css">
+	<link rel="stylesheet" href="./css/bot.css">
+</head>
+
+
+<body>
+
+<!-- HEADER -->
+<div data-include="header"></div>
+
+<!-- Main Content -->
+<div id="botPanel"></div>
+
+<!-- FOOTER -->
+<div data-include="footer"></div>
+
+<script src="./js/jquery-3.6.0.min.js"></script>
+<script src="./js/ui.js"></script>
+<script src="./data/records.js"></script>
+
+<script>
+
+$(function () {
+	UI.load();
+	UI.loadBot();
+});
+
+</script>
+
+</body>
+</html>

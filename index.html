@@ -1,0 +1,35 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+
+<!-- HEADER -->
+<div data-include="header"></div>
+
+<!-- Main Content -->
+<div id="div_bot_panel"></div>
+
+<!-- FOOTER -->
+<div data-include="footer"></div>
+
+<script src="./js/jquery-3.6.0.min.js"></script>
+<script src="./data/records.js"></script>
+<script src="./js/ui.js"></script>
+<script src="./js/home.js"></script>
+
+<script>
+
+$(function () {
+
+	UI.load();
+	updateCards();
+	window.setTimeout(keydownCallback, 1000);
+});
+
+</script>
+
+
+</body>
+</html>
