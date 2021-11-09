@@ -59,13 +59,18 @@ UI.loadBot = function(){
 	}
 	html += "</div>";
 
+
+    const repo_info = item.repository_url.split("/");
+    const org = repo_info[repo_info.length-2];
+
+
 	// GITHUB repo card
 	if(item.repository_url != null && item.repository_url != ""){
 		html += "\
 			<div class=\"div_git_repo\">\
 			<b>Repository:</b><br/>\
 				<a href=\""+item.repository_url+"\">\
-				<img align=\"center\" src=\"https://github-readme-stats.vercel.app/api/pin/?username=botcity-dev&repo="+item.repository_name+"\" />\
+				<img align=\"center\" src=\"https://github-readme-stats.vercel.app/api/pin/?username="+org+"&repo="+item.repository_name+"\" />\
 				</a><br/>\
 			<font style='font-size:12px'>* Source code may be subject to copyright, check with author for redistribution.</font>\
 			</div>";
