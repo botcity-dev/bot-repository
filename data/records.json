@@ -45,7 +45,7 @@
         "name": "Bot - Google Maps Routes",
         "description_short": "Robot to search for routes on google maps and collect information.",
         "description": "Robot to search for routes on google maps and collect information. ",
-        "tags": ["web"],
+        "tags": ["desktop"],
         "programming_language": "python",
         "technology": ["botcity"],
         "OS": ["windows"],
