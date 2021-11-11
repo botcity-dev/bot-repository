@@ -40,5 +40,26 @@
         "company_site": "",
         "license": "freeware",
         "upload_date": "08/11/2021"
+    },
+    {
+        "name": "Bot - Google Maps Routes",
+        "description_short": "Robot to search for routes on google maps and collect information.",
+        "description": "Robot to search for routes on google maps and collect information. ",
+        "tags": ["desktop"],
+        "programming_language": "python",
+        "technology": ["botcity"],
+        "OS": ["windows"],
+        "thumbnail_url": "https://i.imgur.com/mBHqGGi.png",
+        "youtube_video": "https://youtu.be/2wUMZny2ahQ",
+        "youtube_width": 560,
+        "youtube_height": 315,
+        "author_name": "João Victor Voltarelli",
+        "author_site": "https://github.com/joao-voltarelli",
+        "repository_name": "bot-google-maps-routes",
+        "repository_url": "https://github.com/joao-voltarelli/bot-google-maps-routes",
+        "company_name": "",
+        "company_site": "",
+        "license": "freeware",
+        "upload_date": "11/11/2021"
     }
 ]
