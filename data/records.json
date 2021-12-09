@@ -124,5 +124,26 @@
         "company_site": "",
         "license": "freeware",
         "upload_date": "12/11/2021"
-    }
+    },
+    {
+        "name": "IBGEBot",
+        "description_short": "Bot to access the IBGE website and download data in Excel format from the chosen location",
+        "description": "Automation using BotCity FrameWork, which works with computer vision, was developed for the Rocketseat Scholarships challenge at the #DoWhile event. Simple automation to access the IBGE website and download data in Excel format from the chosen location.",
+        "tags": ["WebBot", "web", "IBGE", "Desktop"],
+        "programming_language": "python",
+        "technology": ["botcity"],
+        "OS": ["windows"],
+        "thumbnail_url": "https://imgur.com/jpO9vdK",
+        "youtube_video": "https://youtu.be/dzhSHia9uCA",
+        "youtube_width": 560,
+        "youtube_height": 315,
+        "author_name": "Wernen Veiga",
+        "author_site": "https://github.com/wernenveiga",
+        "repository_name": "IBGEBot",
+        "repository_url": "https://github.com/livia-macon/bot_ecomerce",
+        "company_name": "",
+        "company_site": "",
+        "license": "freeware",
+        "upload_date": "08/12/2021"
+    },
 ]
