@@ -124,5 +124,27 @@
         "company_site": "",
         "license": "freeware",
         "upload_date": "12/11/2021"
+    },
+    {
+        "name": "SpotiBot - Spotify Automation",
+        "description_short": "The bot makes automatic login in spotify, mutes ads and tries to skip them",
+        "description": "SpotiBot is a automation for muting and skipping ads. You can use it as template to try to create your own spotify automation. Makes automatically login before starts to muting",
+        "tags": ["Spotify", "automation","WebBot", "web","bot"],
+        "programming_language": "python",
+        "technology": ["botcity web framework"],
+        "OS": ["windows"],
+        "thumbnail_url": "https://i.imgur.com/kBarjAq.png",
+
+        "youtube_video": "https://www.youtube.com/embed/YF3BQoyegN0",
+        "youtube_width": 1280,
+        "youtube_height": 720,
+        "author_name": "Victor 'VeK' Ferreira",
+        "author_site": "https://github.com/ProjektVek",
+        "repository_name": "Spotify-Automation",
+        "repository_url": "https://github.com/ProjektVek/Spotify-Automation",
+        "company_name": "",
+        "company_site": "",
+        "license": "MIT License",
+        "upload_date": "09/12/2021"
     }
 ]
