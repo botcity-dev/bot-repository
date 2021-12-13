@@ -203,6 +203,7 @@ body{
 .card_bot_image{
 	width:360px;
 	height:172px;
+    overflow: hidden;
 }
 
 .card_bot_image img{
