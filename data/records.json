@@ -214,7 +214,7 @@
         "name": "Bot - Image Editor",
         "description_short": "This is a bot that operates the online image editor found at https://pixlr.com/",
         "description": "This is a bot that operates the online image editor found at https://pixlr.com/. It uses Botcity's Web Bot",
-        "tags": ["WebBot", "Web", "Pixlr"]
+        "tags": ["WebBot", "Web", "Pixlr"],
         "programming_language": "python",
         "technology": ["botcity"],
         "OS": ["windows"],
