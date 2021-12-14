@@ -193,7 +193,7 @@
         "name": "Bot - RPA Challenge - Invoice Extraction",
         "description_short": "This bot will solve the Invoice Extraction challenge available at https://rpachallengeocr.azurewebsites.net/",
         "description": "This bot will solve the Invoice Extraction challenge available at https://rpachallengeocr.azurewebsites.net/. This bot uses OCR and Concurrent_computing",
-        "tags": ["desktop", "RPAChallenge"]
+        "tags": ["desktop", "RPAChallenge"],
         "programming_language": "java",
         "technology": ["botcity"],
         "OS": ["windows"],
