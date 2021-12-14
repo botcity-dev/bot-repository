@@ -167,5 +167,23 @@
         "company_site": "",
         "license": "freeware",
         "upload_date": "08/12/2021"
+    },
+    {
+        "name": "Bot - RPA Challenge - Input Forms",
+        "description_short": "This bot will solve the Input Forms challenge available in https://www.rpachallenge.com/.",
+        "description": "This bot will solve the Input Forms challenge available in https://www.rpachallenge.com/ using two different strategies. The first is the straightfoward way, while the second is a bit more creative.",
+        "tags": ["desktop"],
+        "programming_language": "java",
+        "technology": ["botcity"],
+        "OS": ["windows"],
+        "thumbnail_url": "https://i.imgur.com/BRnjwxE.png",
+        "author_name": "Alex Sander R. Silva",
+        "author_site": "https://github.com/Psycho-Ray/",
+        "repository_name": "RPA-Challenge-Input-Forms",
+        "repository_url": "https://github.com/Psycho-Ray/RPA-Challenge-Input-Forms",
+        "company_name": "Botcity",
+        "company_site": "https://www.botcity.dev/",
+        "license": "freeware",
+        "upload_date": "13/12/2021"
     }
 ]
