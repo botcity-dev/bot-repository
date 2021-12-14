@@ -172,7 +172,7 @@
         "name": "Bot - RPA Challenge - Input Forms",
         "description_short": "This bot will solve the Input Forms challenge available at https://www.rpachallenge.com/.",
         "description": "This bot will solve the Input Forms challenge available at https://www.rpachallenge.com/ using two different strategies. The first is the straightfoward way, while the second is a bit more creative.",
-        "tags": ["desktop"], ["RPAChallenge"]
+        "tags": ["desktop", "RPAChallenge"]
         "programming_language": "java",
         "technology": ["botcity"],
         "OS": ["windows"],
@@ -193,7 +193,7 @@
         "name": "Bot - RPA Challenge - Invoice Extraction",
         "description_short": "This bot will solve the Invoice Extraction challenge available at https://rpachallengeocr.azurewebsites.net/",
         "description": "This bot will solve the Invoice Extraction challenge available at https://rpachallengeocr.azurewebsites.net/. This bot uses OCR and Concurrent_computing",
-        "tags": ["desktop"], ["RPAChallenge"]
+        "tags": ["desktop", "RPAChallenge"]
         "programming_language": "java",
         "technology": ["botcity"],
         "OS": ["windows"],
@@ -214,7 +214,7 @@
         "name": "Bot - Image Editor",
         "description_short": "This is a bot that operates the online image editor found at https://pixlr.com/",
         "description": "This is a bot that operates the online image editor found at https://pixlr.com/. It uses Botcity's Web Bot",
-        "tags": ["WebBot"], ["Web"], ["Pixlr"]
+        "tags": ["WebBot", "Web", "Pixlr"]
         "programming_language": "python",
         "technology": ["botcity"],
         "OS": ["windows"],
