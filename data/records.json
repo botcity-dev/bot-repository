@@ -230,5 +230,26 @@
         "company_site": "https://www.botcity.dev/",
         "license": "freeware",
         "upload_date": "14/12/2021"
+    },
+    {
+        "name": "Bot - Spreadsheet",
+        "description_short": "This is a bot that fills up a spreadsheet with the data that comes from an API",
+        "description": "This bot takes from an API (https://www.themoviedb.org/) the most popular movies as data and turns it into a spreadsheet, so human can read and parse the data.",
+        "tags": ["WebBot", "Web", "Spreadsheet", "TheMovieDB"],
+        "programming_language": "python",
+        "technology": ["botcity", "pandas", "requests"],
+        "OS": ["windows"],
+        "thumbnail_url": "https://i.imgur.com/rfmy7Zl.png",
+        "youtube_video": "https://www.youtube.com/embed/Lt8UmsEkLpA",
+        "youtube_width": 560,
+        "youtube_height": 315,
+        "author_name": "Felipe A. Nieto Curcio",
+        "author_site": "https://github.com/NietoCurcio",
+        "repository_name": "BotCity-spreadsheet",
+        "repository_url": "https://github.com/NietoCurcio/BotCity-spreadsheet",
+        "company_name": "",
+        "company_site": "",
+        "license": "freeware",
+        "upload_date": "16/12/2021"
     }
 ]
