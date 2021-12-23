@@ -253,14 +253,35 @@
         "upload_date": "16/12/2021"
     },
     {
-        "name": "Bot - Minesweeoer",
+        "name": "Bot - Search Domains",
+        "description_short": "The robot for searching domains at Godaddy and Google domains.",
+        "description": "The robot for searching domains at Godaddy and Google domains.",
+        "tags": ["WebBot", "Web", "Headless", "Godaddy", "GoogleDomains"],
+        "programming_language": "python",
+        "technology": ["botcity"],
+        "OS": ["windows"],
+        "thumbnail_url": "https://i.imgur.com/7Emxo2q.png",
+        "youtube_video": "https://www.youtube.com/embed/Y_9Ip7OPggg",
+        "youtube_width": 560,
+        "youtube_height": 315,
+        "author_name": "Luiz Filipy",
+        "author_site": "https://github.com/lf2a",
+        "repository_name": " bot-domains",
+        "repository_url": "https://github.com/lf2a/bot-domains",
+        "company_name": "Botcity",
+        "company_site": "https://www.botcity.dev/",
+        "license": "freeware",
+        "upload_date": "23/12/2021"
+    },
+    {
+        "name": "Bot - Minesweeper",
         "description_short": "This is a bot that plays the classic Windows Minesweeper game found at https://minesweeper.online/",
         "description": "This is a bot that plays the classic Windows Minesweeper game found at https://minesweeper.online/. It uses Botcity's WebBot, but only uses computer vision.",
         "tags": ["WebBot", "Minesweeper", "Games"],
         "programming_language": "python",
         "technology": ["botcity"],
         "OS": ["windows"],
-        "thumbnail_url": "https://imgur.com/a/xaDSXlD",
+        "thumbnail_url": "https://i.imgur.com/WoWL15n.png",
         "youtube_video": "https://www.youtube.com/embed/xDnTDLSrm7s",
         "youtube_width": 560,
         "youtube_height": 315,
@@ -272,5 +293,5 @@
         "company_site": "https://www.botcity.dev/",
         "license": "freeware",
         "upload_date": "23/12/2021"
-    }
+    }  
 ]
