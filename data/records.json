@@ -272,5 +272,26 @@
         "company_site": "https://www.botcity.dev/",
         "license": "freeware",
         "upload_date": "23/12/2021"
-    }
+    },
+    {
+        "name": "Bot - Minesweeper",
+        "description_short": "This is a bot that plays the classic Windows Minesweeper game found at https://minesweeper.online/",
+        "description": "This is a bot that plays the classic Windows Minesweeper game found at https://minesweeper.online/. It uses Botcity's WebBot, but only uses computer vision.",
+        "tags": ["WebBot", "Minesweeper", "Games"],
+        "programming_language": "python",
+        "technology": ["botcity"],
+        "OS": ["windows"],
+        "thumbnail_url": "https://i.imgur.com/WoWL15n.png",
+        "youtube_video": "https://www.youtube.com/embed/xDnTDLSrm7s",
+        "youtube_width": 560,
+        "youtube_height": 315,
+        "author_name": "Alex Sander R. Silva",
+        "author_site": "https://github.com/Psycho-Ray/",
+        "repository_name": "Minesweeper-Bot",
+        "repository_url": "https://github.com/Psycho-Ray/Minesweeper-Bot",
+        "company_name": "Botcity",
+        "company_site": "https://www.botcity.dev/",
+        "license": "freeware",
+        "upload_date": "23/12/2021"
+    }  
 ]
