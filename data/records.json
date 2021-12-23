@@ -293,5 +293,26 @@
         "company_site": "https://www.botcity.dev/",
         "license": "freeware",
         "upload_date": "23/12/2021"
-    }  
+    },
+    {
+        "name": "Bot - Ecomerce - Product: Cell Phone",
+        "description_short": "Bot compares cell phone price and shipping by accessing three different ecomerce pages.",
+        "description": "This bot accesses three different ecomerce pages, looks for a particular cell phone model and extracts their respective prices and shipping. After you finish, create a spreadsheet with the collected data.",
+        "tags": ["WebBot", "BotCity", "Amazon", "Ebay", "Bestbuy", "Bot"],
+        "programming_language": "python",
+        "technology": ["botcity"],
+        "OS": ["windows"],
+        "thumbnail_url": "https://i.imgur.com/MhMd4Fk.png",
+        "youtube_video": "https://www.youtube.com/embed/AzPyml9ARl4",
+        "youtube_width": 560,
+        "youtube_height": 315,
+        "author_name": "Livia Maçon",
+        "author_site": "https://github.com/livia-macon",
+        "repository_name": "bot-collect-price-and-shipping",
+        "repository_url": "https://github.com/livia-macon/bot-collect-price-and-shipping",
+        "company_name": "",
+        "company_site": "",
+        "license": "freeware",
+        "upload_date": "23/12/2021"
+    }
 ]
