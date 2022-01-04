@@ -179,7 +179,7 @@ body{
 
 .card_bot{
 	width:360px;
-	height:305px;
+	height:320px;
 	border:1px solid #cdcdcd;
 	border-bottom-left-radius: 5px;
 	border-bottom-right-radius: 10px;
@@ -197,7 +197,7 @@ body{
     -ms-transform: scale(1.05);
     transform: scale(1.05);
 	transition:all 0.3s ease;
-	box-shadow: 2px 2px 10px; #efefef;
+	box-shadow: 2px 2px 10px #efefef;
 }
 
 .card_bot_image{
@@ -234,7 +234,9 @@ body{
 .card_bot_tags{
 	padding:0px 8px;
 	margin-top:6px;
+    margin-bottom:2px;
 	display:flex;
+    flex-wrap: wrap;
 }
 
 .card_bot_tag{
@@ -245,6 +247,7 @@ body{
 	border-radius:5px;
 	padding:2px 8px;
 	margin-right:3px;
+    margin-bottom:3px;
 }
 
 .div_git_repo{
