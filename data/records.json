@@ -314,5 +314,26 @@
         "company_site": "",
         "license": "freeware",
         "upload_date": "23/12/2021"
+    },
+    {
+        "name": "Bot - Game Rating",
+        "description_short": "Bot fetches the game rating and stores it.",
+        "description": "This headless bot fetches the rating from Metacritic and stores it in a .xlsx file",
+        "tags": ["WebBot", "BotCity", "Games", "Rating", "Metacritic", "Bot", "Headless"],
+        "programming_language": "python",
+        "technology": ["botcity"],
+        "OS": ["windows"],
+        "thumbnail_url": "https://i.imgur.com/RTduEpy.png",
+        "youtube_video": "https://www.youtube.com/embed/5EL-WxjXnog",
+        "youtube_width": 560,
+        "youtube_height": 315,
+        "author_name": "Pedro Rocha",
+        "author_site": "https://github.com/xSh4doow",
+        "repository_name": "gameratingbot",
+        "repository_url": "https://github.com/xSh4doow/gameratingbot",
+        "company_name": "",
+        "company_site": "",
+        "license": "freeware",
+        "upload_date": "30/12/2021"
     }
 ]
