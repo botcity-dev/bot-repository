@@ -1,0 +1,39 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "type": "array",
+    "required": [
+        "name",
+        "description_short",
+        "description",
+        "tags",
+        "programming_language",
+        "technology",
+        "OS",
+        "thumbnail_url",
+        "author_name",
+        "repository_url",
+        "license",
+        "upload_date"
+    ],
+    "properties": {
+        "name": { "type": "string"},
+        "description_short": { "type": "string"},
+        "description": { "type": "string"},
+        "tags": { "type": "array"},
+        "programming_language": {"type": "string"},
+        "technology": {"type": "array"},
+        "OS": {"type": "array"},
+        "thumbnail_url": {"type": "string"},
+        "youtube_video": {"type": "string"},
+        "youtube_width": {"type": "integer"},
+        "youtube_height": {"type": "integer"},
+        "author_name": { "type": "string" },
+        "author_site": { "type": "string" },
+        "repository_name": { "type": "string" },
+        "repository_url": { "type": "string" },
+        "company_name": { "type": "string" },
+        "company_site": { "type": "string" },
+        "license": { "type": "string" },
+        "upload_date": { "type": "string" }
+    }
+}

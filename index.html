@@ -1,0 +1,46 @@
+<html>
+<head>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-N4HVP5D');</script>
+    <!-- End Google Tag Manager -->
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N4HVP5D"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<!-- HEADER -->
+<div data-include="header"></div>
+
+<!-- Main Content -->
+<div id="div_bot_panel"></div>
+
+<!-- FOOTER -->
+<div data-include="footer"></div>
+
+<script src="./js/jquery-3.6.0.min.js"></script>
+<script src="./data/records.js"></script>
+<script src="./js/ui.js"></script>
+<script src="./js/home.js"></script>
+
+<script>
+
+$(function () {
+
+	UI.load();
+	updateCards();
+	window.setTimeout(keydownCallback, 1000);
+});
+
+</script>
+
+
+</body>
+</html>

@@ -1,0 +1,22 @@
+.contentPanel{
+	font-family: "Source Code Pro","monaco","PT Mono","Courier",monospace;
+	font-weight:400;
+	font-size:14px;
+	-webkit-tap-highlight-color: transparent;
+    -webkit-font-smoothing: antialiased;
+	width:75vw;
+	min-height:80vh;
+	max-width:1280px;
+	margin:auto;
+	margin-top:5vh;
+}
+
+.contentTitle{
+	font-family:"Noto Sans", sans-serif;
+	font-size:42px;
+	font-weight:bold;
+}
+
+.contentText{
+	margin-bottom:20px;
+}
