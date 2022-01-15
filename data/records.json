@@ -18,7 +18,8 @@
         "company_name": "",
         "company_site": "",
         "license": "freeware",
-        "upload_date": "08/11/2021"
+        "upload_date": "08/11/2021",
+        "rank": 0.0
     },
     {
         "name": "Bot - Install Android Apps",
@@ -39,7 +40,8 @@
         "company_name": "",
         "company_site": "",
         "license": "freeware",
-        "upload_date": "08/11/2021"
+        "upload_date": "08/11/2021",
+        "rank": 0.0
     },
     {
         "name": "Bot - Google Maps Routes",
@@ -60,7 +62,8 @@
         "company_name": "",
         "company_site": "",
         "license": "freeware",
-        "upload_date": "11/11/2021"
+        "upload_date": "11/11/2021",
+        "rank": 0.0
     },
     {
         "name": "Bot - Disaster Alert",
@@ -81,7 +84,8 @@
         "company_name": "",
         "company_site": "",
         "license": "freeware",
-        "upload_date": "12/11/2021"
+        "upload_date": "12/11/2021",
+        "rank": 0.0
     },
     {
         "name": "Bot - Movies Review",
@@ -102,7 +106,8 @@
         "company_name": "",
         "company_site": "",
         "license": "freeware",
-        "upload_date": "12/11/2021"
+        "upload_date": "12/11/2021",
+        "rank": 0.0
     },
     {
         "name": "Bot - E-commerce Action Figure",
@@ -123,7 +128,8 @@
         "company_name": "",
         "company_site": "",
         "license": "freeware",
-        "upload_date": "12/11/2021"
+        "upload_date": "12/11/2021",
+        "rank": 0.0
     },
     {
         "name": "SpotiBot - Spotify Automation",
@@ -134,7 +140,6 @@
         "technology": ["botcity web framework"],
         "OS": ["windows"],
         "thumbnail_url": "https://i.imgur.com/kBarjAq.png",
-
         "youtube_video": "https://www.youtube.com/embed/YF3BQoyegN0",
         "youtube_width": 1280,
         "youtube_height": 720,
@@ -145,7 +150,8 @@
         "company_name": "",
         "company_site": "",
         "license": "MIT License",
-        "upload_date": "09/12/2021"
+        "upload_date": "09/12/2021",
+        "rank": 0.8
     },
     {
         "name": "IBGEBot",
@@ -166,7 +172,8 @@
         "company_name": "",
         "company_site": "",
         "license": "freeware",
-        "upload_date": "08/12/2021"
+        "upload_date": "08/12/2021",
+        "rank": 0.0
     },
     {
         "name": "Bot - RPA Challenge - Input Forms",
@@ -187,7 +194,8 @@
         "company_name": "Botcity",
         "company_site": "https://www.botcity.dev/",
         "license": "freeware",
-        "upload_date": "13/12/2021"
+        "upload_date": "13/12/2021",
+        "rank": 0.0
     },
     {
         "name": "Bot - RPA Challenge - Invoice Extraction",
@@ -208,7 +216,8 @@
         "company_name": "Botcity",
         "company_site": "https://www.botcity.dev/",
         "license": "freeware",
-        "upload_date": "14/12/2021"
+        "upload_date": "14/12/2021",
+        "rank": 0.0
     },
     {
         "name": "Bot - Image Editor",
@@ -229,7 +238,8 @@
         "company_name": "Botcity",
         "company_site": "https://www.botcity.dev/",
         "license": "freeware",
-        "upload_date": "14/12/2021"
+        "upload_date": "14/12/2021",
+        "rank": 0.0
     },
     {
         "name": "Bot - Spreadsheet",
@@ -250,7 +260,8 @@
         "company_name": "",
         "company_site": "",
         "license": "freeware",
-        "upload_date": "16/12/2021"
+        "upload_date": "16/12/2021",
+        "rank": 0.0
     },
     {
         "name": "Bot - Search Domains",
@@ -271,7 +282,8 @@
         "company_name": "Botcity",
         "company_site": "https://www.botcity.dev/",
         "license": "freeware",
-        "upload_date": "23/12/2021"
+        "upload_date": "23/12/2021",
+        "rank": 0.0
     },
     {
         "name": "Bot - Minesweeper",
@@ -292,7 +304,8 @@
         "company_name": "Botcity",
         "company_site": "https://www.botcity.dev/",
         "license": "freeware",
-        "upload_date": "23/12/2021"
+        "upload_date": "23/12/2021",
+        "rank": 1.0
     },
     {
         "name": "Bot - Ecomerce - Product: Cell Phone",
@@ -313,7 +326,8 @@
         "company_name": "",
         "company_site": "",
         "license": "freeware",
-        "upload_date": "23/12/2021"
+        "upload_date": "23/12/2021",
+        "rank": 0.0
     },
     {
         "name": "Bot - Game Rating",
@@ -334,6 +348,7 @@
         "company_name": "",
         "company_site": "",
         "license": "freeware",
-        "upload_date": "30/12/2021"
+        "upload_date": "30/12/2021",
+        "rank": 0.0
     }
 ]
