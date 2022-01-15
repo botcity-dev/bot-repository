@@ -19,11 +19,17 @@ function updateCards(){
 	console.log(query);
 	$("#div_bot_panel").empty();
 
+    let orderedRecords = [...RECORDS].sort(
+        function(a, b) {
+            return parseFloat(b.rank) - parseFloat(a.rank);
+        }
+    );
+
 	let matched=0;
-	for(let i in RECORDS){
-		let item = RECORDS[i];
+	for(let i in orderedRecords){
+		let item = orderedRecords[i];
 		if(match(item, query)){
-			UI.loadCard(item, i);
+			UI.loadCard(item, RECORDS.indexOf(item));
 			matched++;
 		}
 	}
