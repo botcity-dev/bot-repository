@@ -61,6 +61,5 @@ function matchQueryString(query, str){
 }
 
 function cardClicked(index){
-	let item = RECORDS[index];
-	window.location.href="bot.html?id="+index;
+	window.location.href="bot-"+index+".html";
 }

@@ -42,53 +42,5 @@ UI.loadCard = function(item, index){
  */
 UI.loadBot = function(){
 	let id = new URL(window.location.href).searchParams.get("id");
-	let item = RECORDS[id];
-
-	let html = "\
-	\
-	<div id=\"botName\">"+item.name+"</div>\
-	<div id=\"botAuthor\">by <a href=\""+item.author_site+"\">"+item.author_name+"</a> on "+item.upload_date+"</div>\
-	\
-	<div id=\"botDescription\">"+item.description+"</div>\
-	<div class=\"card_bot_tags_bot\"><b>tags: </b>";
-
-	// TAGS
-	html += "<div class=\"card_bot_tag\">"+item.programming_language+"</div>";
-	for(let tagIdx in item.tags){
-		html += "<div class=\"card_bot_tag\">"+item.tags[tagIdx]+"</div>";
-	}
-	html += "</div>";
-
-
-    const repo_info = item.repository_url.split("/");
-    const org = repo_info[repo_info.length-2];
-
-
-	// GITHUB repo card
-	if(item.repository_url != null && item.repository_url != ""){
-		html += "\
-			<div class=\"div_git_repo\">\
-			<b>Repository:</b><br/>\
-				<a href=\""+item.repository_url+"\">\
-				<img align=\"center\" src=\"https://github-readme-stats.vercel.app/api/pin/?username="+org+"&repo="+item.repository_name+"\" />\
-				</a><br/>\
-			<font style='font-size:12px'>* Source code may be subject to copyright, check with author for redistribution.</font>\
-			</div>";
-	}
-
-	// Youtube Video
-	if(item.youtube_video != null && item.youtube_video != ""){
-		html += "\
-		<div class=\"video-container\">\
-			<iframe class=\"youtube_embeded\" width=\"\" height=\"\" src=\""+item.youtube_video+"\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\
-		</div>";
-	}
-
-	$("#botPanel").html(html);
-
-	if(item.youtube_video != null && item.youtube_video != ""){
-		// Set youtube dimensions
-		let hp = item.youtube_height/item.youtube_width * 100;
-		$(".video-container").css("padding-bottom", hp+"%");
-	}
+	window.location.href="bot-"+id+".html";
 };
