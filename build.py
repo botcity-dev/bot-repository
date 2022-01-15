@@ -79,20 +79,20 @@ def generate_for_entry(deploy_path, uid, entry):
 
         <!--  Essential META Tags -->
         <meta property="og:type" content="article" />
-        <meta property="og:title" content="BotRepository - $name">
-        <meta property="og:site_name" content="BotRepository">
-        <meta property="og:url" content="$url">
-        <meta property="og:image" content="$thumbnail_url">
-        <meta property="og:description" content="$description">
-        <meta property="article:author" content="$author_name">
-        <meta property="article:published_time" content="$upload_date_iso">
+        <meta property="og:title" content="BotRepository - $name" />
+        <meta property="og:site_name" content="BotRepository" />
+        <meta property="og:url" content="$url" />
+        <meta property="og:image" content="$thumbnail_url" />
+        <meta property="og:description" content="$description" />
+        <meta property="article:author" content="$author_name" />
+        <meta property="article:published_time" content="$upload_date_iso" />
 
         <meta property="og:locale" content="en_US"/>
 
         <!--  Non-Essential, But Required for Analytics -->
-        <meta name="twitter:site" content="@BotcityDev">
-        <meta name="twitter:card" content="summary_large_image">
-        <meta name="twitter:image:alt" content="$name">
+        <meta name="twitter:site" content="@BotcityDev" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:image:alt" content="$name" />
 
 
     </head>
