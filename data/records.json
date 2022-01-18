@@ -350,5 +350,27 @@
         "license": "freeware",
         "upload_date": "30/12/2021",
         "rank": 0.0
+    },
+    {
+        "name": "Bot - AntiCaptcha",
+        "description_short": "This bot shows you the easiest way to solve a captcha using Botcity + AntiCaptcha.",
+        "description": "This bot shows you the easiest way to solve a captcha using Botcity + AntiCaptcha.",
+        "tags": ["AntiCatcha", "ReCaptcha", "Plugin", "WebBot"],
+        "programming_language": "python",
+        "technology": ["botcity"],
+        "OS": ["windows"],
+        "thumbnail_url": "https://i.imgur.com/ndP5FNw.png",
+        "youtube_video": "https://www.youtube.com/embed/TcT1oOahRiQ",
+        "youtube_width": 560,
+        "youtube_height": 315,
+        "author_name": "Alex Sander R. Silva",
+        "author_site": "https://github.com/Psycho-Ray/",
+        "repository_name": "Bot-ReCaptcha",
+        "repository_url": "https://github.com/Psycho-Ray/Bot-ReCaptcha",
+        "company_name": "Botcity",
+        "company_site": "https://www.botcity.dev/",
+        "license": "freeware",
+        "upload_date": "17/01/2021",
+        "rank": 0.0
     }
 ]
