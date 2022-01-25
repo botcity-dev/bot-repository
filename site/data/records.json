@@ -374,6 +374,28 @@
         "rank": 0.7
     },
     {
+        "name": "Python Pokedex",
+        "description_short": "This a Pokedex created using Python.",
+        "description": "This is a Pokedex created using Python that shows the pokemon's stats and a preview image",
+        "tags": ["Python", "Pokedex", "Pokemon", "WebBot"],
+        "programming_language": "python",
+        "technology": ["botcity"],
+        "OS": ["windows"],
+        "thumbnail_url": "https://i.imgur.com/t0040KY.png",
+        "youtube_video": "https://www.youtube.com/embed/j09w-COdjs0",
+        "youtube_width": 560,
+        "youtube_height": 315,
+        "author_name": "Pedro Rocha",
+        "author_site": "https://github.com/xSh4doow/",
+        "repository_name": "python-pokedex",
+        "repository_url": "https://github.com/xSh4doow/python-pokedex",
+        "company_name": "",
+        "company_site": "",
+        "license": "freeware",
+        "upload_date": "20/01/2022",
+        "rank": 0.0
+    },
+    {
         "name": "Botcity Plugins - Example",
         "description_short": "Botcity plugins usage.",
         "description": "Botcity plugins usage.",
@@ -393,6 +415,6 @@
         "company_site": "https://www.botcity.dev/",
         "license": "freeware",
         "upload_date": "25/01/2022",
-        "rank": 0.0
-    }
-]
+        "rank": 0.75
+    }      
+] 
