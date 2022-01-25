@@ -394,5 +394,27 @@
         "license": "freeware",
         "upload_date": "20/01/2022",
         "rank": 0.0
-    }
+    },
+    {
+        "name": "Botcity Plugins - Example",
+        "description_short": "Botcity plugins usage.",
+        "description": "Botcity plugins usage.",
+        "tags": ["plugins", "example"],
+        "programming_language": "python",
+        "technology": ["botcity"],
+        "OS": ["windows"],
+        "thumbnail_url": "https://i.imgur.com/apWkkCB.png",
+        "youtube_video": "",
+        "youtube_width": 560,
+        "youtube_height": 315,
+        "author_name": "Luiz Filipy",
+        "author_site": "https://github.com/lf2a",
+        "repository_name": "botcity-plugins",
+        "repository_url": "https://github.com/lf2a/botcity-plugins",
+        "company_name": "Botcity",
+        "company_site": "https://www.botcity.dev/",
+        "license": "freeware",
+        "upload_date": "25/01/2022",
+        "rank": 0.75
+    }      
 ] 
