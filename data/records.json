@@ -411,10 +411,32 @@
         "author_site": "https://github.com/lf2a",
         "repository_name": "botcity-plugins",
         "repository_url": "https://github.com/lf2a/botcity-plugins",
-        "company_name": "Botcity",
+        "company_name": "BotCity",
         "company_site": "https://www.botcity.dev/",
         "license": "freeware",
         "upload_date": "25/01/2022",
         "rank": 0.75
-    }      
-] 
+    },
+    {
+        "name": "Wordle Bot",
+        "description_short": "This is a bot bot that plays the game Wordle, albeit in its alternative version called Hello Wordle.",
+        "description": "This is a bot bot that plays the game Wordle, albeit in its alternative version called Hello Wordle. This version allows you to play as many times a day as you want, and to change the word size to a number between 4 and 11. As a demonstration, this bot plays once for every word size, starting at 11.",
+        "tags": ["Web", "Games"],
+        "programming_language": "python",
+        "technology": ["botcity"],
+        "OS": ["windows"],
+        "thumbnail_url": "https://i.imgur.com/e74YQZx.png",
+        "youtube_video": "https://www.youtube.com/embed/9f0Wj7xmPP0",
+        "youtube_width": 854,
+        "youtube_height": 480,
+        "author_name": "Alex Sander",
+        "author_site": "https://github.com/Psycho-Ray",
+        "repository_name": "Wordle-Bot",
+        "repository_url": "https://github.com/Psycho-Ray/Wordle-Bot",
+        "company_name": "BotCity",
+        "company_site": "https://www.botcity.dev/",
+        "license": "Apache 2.0",
+        "upload_date": "15/02/2022",
+        "rank": 0.8
+    }
+]
