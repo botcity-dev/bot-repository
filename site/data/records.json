@@ -438,5 +438,27 @@
         "license": "Apache 2.0",
         "upload_date": "15/02/2022",
         "rank": 0.8
+    },
+    {
+        "name": "Free Proxy List Crawler",
+        "description_short": "Fetch list of IPs from http://free-proxy-list.net/.",
+        "description": "Fetch list of IPs from http://free-proxy-list.net/.",
+        "tags": ["Crawler", "Proxy"],
+        "programming_language": "python",
+        "technology": ["botcity"],
+        "OS": ["windows", "Linux", "MacOS"],
+        "thumbnail_url": "https://i.imgur.com/j0Pa0E9.png",
+        "youtube_video": "",
+        "youtube_width": 854,
+        "youtube_height": 480,
+        "author_name": "Hugo Slepicka",
+        "author_site": "https://github.com/hhslepicka",
+        "repository_name": "FreeProxyListCrawler",
+        "repository_url": "https://github.com/hhslepicka/FreeProxyListCrawler",
+        "company_name": "",
+        "company_site": "",
+        "license": "freeware",
+        "upload_date": "16/02/2022",
+        "rank": 0.5
     }
 ]
