@@ -460,5 +460,27 @@
         "license": "freeware",
         "upload_date": "16/02/2022",
         "rank": 0.5
+    },
+    {
+        "name": "Bot - Letreco",
+        "description_short": "This bot solves the Letreco game, the brazilian version of Wordle.",
+        "description": "This bot solves the Letreco game, the brazilian version of Wordle.",
+        "tags": ["Web", "Python", "Games"],
+        "programming_language": "python",
+        "technology": ["botcity"],
+        "OS": ["windows"],
+        "thumbnail_url": "https://i.imgur.com/C7Dw7lv.png",
+        "youtube_video": "https://www.youtube.com/embed/w1LPNpsWRn4",
+        "youtube_width": 560,
+        "youtube_height": 315,
+        "author_name": "João Victor Voltarelli",
+        "author_site": "https://github.com/joao-voltarelli",
+        "repository_name": "bot-letreco-python",
+        "repository_url": "https://github.com/joao-voltarelli/bot-letreco-python",
+        "company_name": "",
+        "company_site": "",
+        "license": "freeware",
+        "upload_date": "24/02/2022",
+        "rank": 0.0
     }
 ]
