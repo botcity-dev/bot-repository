@@ -184,9 +184,6 @@
         "technology": ["botcity"],
         "OS": ["windows"],
         "thumbnail_url": "https://i.imgur.com/BRnjwxE.png",
-        "youtube_video": "https://www.youtube.com/embed/odzdTElR0uk",
-        "youtube_width": 560,
-        "youtube_height": 315,
         "author_name": "Alex Sander R. Silva",
         "author_site": "https://github.com/Psycho-Ray/",
         "repository_name": "RPA-Challenge-Input-Forms",
@@ -206,9 +203,6 @@
         "technology": ["botcity"],
         "OS": ["windows"],
         "thumbnail_url": "https://i.imgur.com/aRZ2geu.png",
-        "youtube_video": "https://www.youtube.com/embed/wvg2LD7VfWk",
-        "youtube_width": 560,
-        "youtube_height": 315,
         "author_name": "Alex Sander R. Silva",
         "author_site": "https://github.com/Psycho-Ray/",
         "repository_name": "RPA-Challenge-Invoice-Extraction ",
@@ -228,9 +222,6 @@
         "technology": ["botcity"],
         "OS": ["windows"],
         "thumbnail_url": "https://i.imgur.com/8BsPUCi.png",
-        "youtube_video": "https://www.youtube.com/embed/8p1eR5zX8zk",
-        "youtube_width": 560,
-        "youtube_height": 315,
         "author_name": "Alex Sander R. Silva",
         "author_site": "https://github.com/Psycho-Ray/",
         "repository_name": "Image-Editor-Bot",
@@ -294,9 +285,6 @@
         "technology": ["botcity"],
         "OS": ["windows"],
         "thumbnail_url": "https://i.imgur.com/WoWL15n.png",
-        "youtube_video": "https://www.youtube.com/embed/xDnTDLSrm7s",
-        "youtube_width": 560,
-        "youtube_height": 315,
         "author_name": "Alex Sander R. Silva",
         "author_site": "https://github.com/Psycho-Ray/",
         "repository_name": "Minesweeper-Bot",
@@ -305,7 +293,7 @@
         "company_site": "https://www.botcity.dev/",
         "license": "freeware",
         "upload_date": "23/12/2021",
-        "rank": 1.0
+        "rank": 0.5
     },
     {
         "name": "Bot - Ecomerce - Product: Cell Phone",
@@ -360,9 +348,6 @@
         "technology": ["botcity"],
         "OS": ["windows"],
         "thumbnail_url": "https://i.imgur.com/ndP5FNw.png",
-        "youtube_video": "https://www.youtube.com/embed/TcT1oOahRiQ",
-        "youtube_width": 560,
-        "youtube_height": 315,
         "author_name": "Alex Sander R. Silva",
         "author_site": "https://github.com/Psycho-Ray/",
         "repository_name": "Bot-ReCaptcha",
@@ -371,7 +356,7 @@
         "company_site": "https://www.botcity.dev/",
         "license": "freeware",
         "upload_date": "17/01/2021",
-        "rank": 0.7
+        "rank": 0.6
     },
     {
         "name": "Python Pokedex",
@@ -426,9 +411,6 @@
         "technology": ["botcity"],
         "OS": ["windows"],
         "thumbnail_url": "https://i.imgur.com/e74YQZx.png",
-        "youtube_video": "https://www.youtube.com/embed/9f0Wj7xmPP0",
-        "youtube_width": 854,
-        "youtube_height": 480,
         "author_name": "Alex Sander",
         "author_site": "https://github.com/Psycho-Ray",
         "repository_name": "Wordle-Bot",
@@ -437,7 +419,7 @@
         "company_site": "https://www.botcity.dev/",
         "license": "Apache 2.0",
         "upload_date": "15/02/2022",
-        "rank": 0.8
+        "rank": 0.2
     },
     {
         "name": "Free Proxy List Crawler",
