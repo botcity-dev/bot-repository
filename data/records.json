@@ -464,5 +464,27 @@
         "license": "freeware",
         "upload_date": "24/02/2022",
         "rank": 0.8
+    },
+    {
+        "name": "Bot - Android Automation Example",
+        "description_short": "This bot shows an example of automation in Android environments through an emulator.",
+        "description": "This bot shows an example of automation in Android environments through an emulator.",
+        "tags": ["Desktop", "Python", "Android"],
+        "programming_language": "python",
+        "technology": ["botcity"],
+        "OS": ["windows"],
+        "thumbnail_url": "https://i.imgur.com/5jqyHTl.png",
+        "youtube_video": "https://www.youtube.com/embed/sMwQ-87anxI",
+        "youtube_width": 560,
+        "youtube_height": 315,
+        "author_name": "João Victor Voltarelli",
+        "author_site": "https://github.com/joao-voltarelli",
+        "repository_name": "bot-android-automation-example",
+        "repository_url": "https://github.com/joao-voltarelli/bot-android-automation-example",
+        "company_name": "",
+        "company_site": "",
+        "license": "freeware",
+        "upload_date": "25/04/2022",
+        "rank": 0.75
     }
 ]
