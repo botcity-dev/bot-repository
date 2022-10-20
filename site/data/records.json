@@ -486,5 +486,27 @@
         "license": "freeware",
         "upload_date": "25/04/2022",
         "rank": 0.75
+    },
+    {
+        "name": "Bot - Cashbacks",
+        "description_short": "RPA Bot to capture cashback values in 'Méliuz' and 'Banco Inter' websites, for selected stores.",
+        "description": "RPA Bot to capture cashback values in 'Méliuz' and 'Banco Inter' websites, for selected stores. Developed in Python with BotCity",
+        "tags": ["Python", "Desktop", "Crawler", "E-commerce"],
+        "programming_language": "python",
+        "technology": ["botcity"],
+        "OS": ["windows"],
+        "thumbnail_url": "https://i.imgur.com/H51cnTZ.jpeg",
+        "youtube_video": "https://www.youtube.com/embed/VsxO2N6T1ZY",
+        "youtube_width": 560,
+        "youtube_height": 315,
+        "author_name": "Augusta Klug",
+        "author_site": "https://github.com/augustaklug",
+        "repository_name": "RPABotCashback",
+        "repository_url": "https://github.com/augustaklug/RPABotCashback",
+        "company_name": "",
+        "company_site": "",
+        "license": "GPL 3.0",
+        "upload_date": "19/10/2022",
+        "rank": 0.9
     }
 ]
