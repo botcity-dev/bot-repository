@@ -508,5 +508,27 @@
         "license": "GPL 3.0",
         "upload_date": "19/10/2022",
         "rank": 0.9
+    },
+    {
+        "name": "Bot - Gold",
+        "description_short": "A bot that checks the value of gold in BRL today and shows that value to the user",
+        "description": "The bot is responsible to enter in https://dolarhoje.com/ouro-hoje/, get the value of 1g of gold in BRL and prints this value to user.",
+        "tags": ["finances", "gold", "value"],
+        "programming_language": "python",
+        "technology": ["botcity"],
+        "OS": ["windows"],
+        "thumbnail_url": "https://i.imgur.com/eyEyXvH.jpeg",
+        "youtube_video": "",
+        "youtube_width": 560,
+        "youtube_height": 315,
+        "author_name": "Lucas Bastos",
+        "author_site": "https://github.com/changrett4",
+        "repository_name": "bot_gold",
+        "repository_url": "https://github.com/changrett4/bot_gold",
+        "company_name": "",
+        "company_site": "",
+        "license": "freeware",
+        "upload_date": "21/10/2022",
+        "rank": 0.6
     }
 ]
