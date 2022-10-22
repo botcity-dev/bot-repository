@@ -530,5 +530,28 @@
         "license": "freeware",
         "upload_date": "21/10/2022",
         "rank": 0.6
+    },
+    {
+        "name": "Instagram Bot",
+        "description_short": "This bot can be used to automacaitally 'like' up to 6 Instagram stories.",
+        "description": "This automation access Instagram, assuming that the username and password are already saved and the browser is already open. The first story on the list is open, the bot hits the like button and closes the page. The main webpage is reloaded and the process is repeated until the counter reaches the maximum number of 6 stores (the counter goes from 0 to 5)",
+        "tags": ["instagram", "likes", "bot"],
+        "programming_language": "python",
+        "technology": ["botcity"],
+        "OS": ["windows"],
+        "thumbnail_url": "https://i.imgur.com/Hh3Evwn.png",
+        "youtube_video": "https://www.youtube.com/embed/55knydOQU1s",
+        "youtube_width": 560,
+        "youtube_height": 315,
+        "author_name": "Andressa Lima",
+        "author_site": "https://www.linkedin.com/in/andressalf/",
+        "repository_name": "instagram_bot",
+        "repository_url": "https://github.com/AndressaLF/instagram_bot",
+        "company_name": "",
+        "company_site": "",
+        "license": "GPL 3.0",
+        "upload_date": "21/10/2022",
+        "rank": 0.9
     }
+
 ]
