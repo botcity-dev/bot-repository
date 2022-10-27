@@ -552,6 +552,28 @@
         "license": "GPL 3.0",
         "upload_date": "21/10/2022",
         "rank": 0.9
+    },
+    {
+        "name": "Whatsapp Bot",
+        "description_short": "The robot checks the student transport card balance via Whatsapp.",
+        "description": "Developed in Python with BotCity Studio. This automation access WhatsApp and interacts with another bot added to the contacts to check the balance available on the student transport card.",
+        "tags": ["Whatsapp", "automation", "desktop"],
+        "programming_language": "python",
+        "technology": ["botcity"],
+        "OS": ["windows"],
+        "thumbnail_url": "https://i.imgur.com/Ntav0IY.png",
+        "youtube_video": "",
+        "youtube_width": 560,
+        "youtube_height": 315,
+        "author_name": "Andressa Lima",
+        "author_site": "https://github.com/LuanaVLins",
+        "repository_name": "whatsapp_bot",
+        "repository_url": "https://github.com/LuanaVLins/whatsapp_bot",
+        "company_name": "",
+        "company_site": "",
+        "license": "Freeware",
+        "upload_date": "24/10/2022",
+        "rank": 0.85
     }
 
 ]
