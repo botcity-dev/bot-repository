@@ -574,6 +574,27 @@
         "license": "Freeware",
         "upload_date": "24/10/2022",
         "rank": 0.85
+    },
+    {
+        "name": "BotCertificates ",
+        "description_short": "This automation interacts with an excel spreadsheet, checking if the Process column is empty, if it is, it does the procedure of creating a certificate, opening the power point, and putting the name data based on the spreadsheet, and current date, through datetime library, after, saves file as PDF.",
+        "description": "This automation interacts with an excel spreadsheet, checking if the Process column is empty, if it is, it does the procedure of creating a certificate, opening the power point, and putting the name data based on the spreadsheet, and current date, through datetime library, after, saves file as PDF.",
+        "tags": ["excel", "automation", "rpa", "python"],
+        "programming_language": "python",
+        "technology": ["botcity"],
+        "OS": ["windows"],
+        "thumbnail_url": "https://i.imgur.com/2YCwvoQ.png",
+        "youtube_video": "https://www.youtube.com/embed/Z2_x8LzxkDQ",
+        "youtube_width": 560,
+        "youtube_height": 315,
+        "author_name": "Livia Maçon",
+        "author_site": "https://github.com/livia-macon",
+        "repository_name": "BotCertificates",
+        "repository_url": "https://github.com/livia-macon/BotCertificates",
+        "company_name": "",
+        "company_site": "",
+        "license": "Freeware",
+        "upload_date": "09/11/2022",
+        "rank": 0.85
     }
-
 ]
