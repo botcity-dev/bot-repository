@@ -11,6 +11,8 @@ def generate_for_entry(deploy_path, uid, entry):
 
     html = []
 
+    entry["description"] = entry["description"].replace("\n", "<br>")
+
     # INTRO
     intro = string.Template("""
         <div id="botName">$name</div>
