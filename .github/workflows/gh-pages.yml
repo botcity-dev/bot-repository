@@ -6,6 +6,9 @@ on:
   pull_request:
     branches:
       - '**'
+
+permissions: write-all
+
 jobs:
   deploy:
     runs-on: ${{ matrix.os }}
