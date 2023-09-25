@@ -618,5 +618,27 @@
         "license": "Freeware",
         "upload_date": "01/16/2023",
         "rank": 0.95
+    },
+    {
+        "name": "RPA Challenge - With BotCity",
+        "description_short": "The RPA Challenge consists of accessing a website and downloading a spreadsheet with employee data. After that, insert the data read from the spreadsheet into the respective fields on the website and send. However, the fields change position with each send, making the process more difficult.",
+        "description": "This challenge aims to create a workflow where the robot accesses the website 'https://rpachallenge.com' and downloads the indicated spreadsheet. After that, insert the data from the spreadsheet into their respective fields and send. However, the fields change position after each submission over ten rounds, so the robot must correctly identify where to enter the spreadsheet records",
+        "tags": ["python", "web", "bot"],
+        "programming_language": "python",
+        "technology": ["botcity", "pandas", "selenium"],
+        "OS": ["windows"],
+        "thumbnail_url": "https://imgur.com/a/ACikRMD.png",
+        "youtube_video": "",
+        "youtube_width": 560,
+        "youtube_height": 315,
+        "author_name": "João Victor Silva Ferreira",
+        "author_site": "https://www.linkedin.com/in/ojoaovictor/",
+        "repository_name": "RPA_Challenge",
+        "repository_url": "https://github.com/ojoaovf/RPA_Challenge",
+        "company_name": "T2C Group",
+        "company_site": "https://www.t2cgroup.com.br/",
+        "license": "Apache 2.0",
+        "upload_date": "09/25/2023",
+        "rank": 0.95
     }
 ]
