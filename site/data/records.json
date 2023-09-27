@@ -640,5 +640,27 @@
         "license": "Apache 2.0",
         "upload_date": "09/25/2023",
         "rank": 0.95
+    },
+    {
+        "name": "Work Items",
+        "description_short": "Extract data from Acme System.",
+        "description": "The automation accesses the ACME System website to extract all work items and saves them in the MySQL Workbench database. Then, it sends an email informing the user.",
+        "tags": ["python", "web scraping", "automation", "MySQL"],
+        "programming_language": "python",
+        "technology": ["botcity"],
+        "OS": ["windows"],
+        "thumbnail_url": "https://i.imgur.com/AJqwcyS.png",
+        "youtube_video": "",
+        "youtube_width": 560,
+        "youtube_height": 315,
+        "author_name": "Maria Lima",
+        "author_site": "https://github.com/MariaCaroll",
+        "repository_name": "raspagemDados",
+        "repository_url": "https://github.com/MariaCaroll/raspagemDados",
+        "company_name": "",
+        "company_site": "",
+        "license": "Proprietary",
+        "upload_date": "09/27/2023",
+        "rank": 0.95
     }
 ]
