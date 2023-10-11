@@ -662,5 +662,27 @@
         "license": "Proprietary",
         "upload_date": "09/27/2023",
         "rank": 0.95
+    },
+    {
+        "name": "Bitwarden vault and WebBot",
+        "description_short": "Example of using Bitwarden with WebBot to fill out forms.",
+        "description": "This automation loads some secrets in the Bitwarden vault and uses them to fill the form. I used a web bot template from BotCity, accessing DOM elements. You must install Python, Pip, Virtualenv, and other dependencies described in the requirements file.",
+        "tags": ["python", "webbot", "botcity", "bitwarden", "vault"],
+        "programming_language": "python",
+        "technology": ["botcity", "python"],
+        "OS": ["windows"],
+        "thumbnail_url": "https://i.imgur.com/Z8m80BF.png",
+        "youtube_video": "",
+        "youtube_width": 560,
+        "youtube_height": 315,
+        "author_name": "Bruna Ferreira",
+        "author_site": "https://bugelseif.github.io/website/",
+        "repository_name": "bitwarden-API",
+        "repository_url": "https://github.com/bugelseif/bitwarden-API",
+        "company_name": "BotCity",
+        "company_site": "https://www.botcity.dev/",
+        "license": "MIT",
+        "upload_date": "10/11/2023",
+        "rank": 0.98
     }
 ]
