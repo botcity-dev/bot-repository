@@ -14,7 +14,7 @@ def generate_for_entry(deploy_path, uid, entry):
     entry["description"] = entry["description"].replace("\n", "<br>")
 
     # INTRO
-    intro = string.Template("""
+    intro = string.Template(f"""
         <div id="botName">$name</div>
         <div id="botAuthor">by <a href="$author_site">$author_name</a> on $upload_date</div>
 
@@ -36,30 +36,15 @@ def generate_for_entry(deploy_path, uid, entry):
         org = entry.get("repository_url", "").split("/")[-2]
         entry["org"] = org
         gh = string.Template(
-    f"""
-        <div class="div_git_repo">
-        <b>Repository:</b><br/>
-            <a href="$repository_url">
-            <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=$org&repo=$repository_name"/>
-            </a><br/>
-        <font style='font-size:12px'>* Source code may be subject to copyright, check with author for redistribution.</font>
-        </div>
-
-        <div style='margin-top: 10px'>
-            <script src="https://platform.linkedin.com/in.js" type="text/javascript">lang: en_US</script>
-            <script type="IN/Share" data-url="https://repository.botcity.dev/bot-{uid}.html"></script>
-        </div>
-        <div style='margin-top: 10px'>
-            <a class="twitter-share-button" target="_blank" href="https://twitter.com/intent/tweet?text=I liked this bot that I saw in the Bot Repository. Check it out. https://repository.botcity.dev/bot-{uid}.html">
-                <button type="button" style="background-color: #0d6efd; color:#fff">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
-  <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" fill=#fff></path>
-</svg>
-                Share
-              </button>
-            </a>
-        </div>
-    """
+            f"""
+                <div class="div_git_repo">
+                <b>Repository:</b><br/>
+                    <a href="$repository_url">
+                    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=$org&repo=$repository_name"/>
+                    </a><br/>
+                <font style='font-size:12px'>* Source code may be subject to copyright, check with author for redistribution.</font>
+                </div>
+            """
         ).safe_substitute(**entry)
         html.append(gh)
 
@@ -78,6 +63,24 @@ def generate_for_entry(deploy_path, uid, entry):
     entry["url"] = f"https://repository.botcity.dev/bot-{uid}.html"
     upload_date_iso = "/".join(entry.get("upload_date").split("/")[::-1])
     entry["upload_date_iso"] = upload_date_iso
+
+    share = f"""
+        <div class="div_share">
+
+            <b>Share this Bot:</b><br/>
+            <!-- AddToAny BEGIN -->
+            <div class="a2a_kit a2a_kit_size_32 a2a_default_style" data-a2a-url="https://repository.botcity.dev/bot-{uid}.html" data-a2a-title="I liked this bot that I saw in the Bot Repository. Check it out.">
+                <a class="a2a_button_copy_link"></a>
+                <a class="a2a_button_linkedin"></a>
+                <a class="a2a_button_whatsapp"></a>
+                <a class="a2a_button_twitter"></a>
+                <a class="a2a_button_email"></a>
+            </div>
+            <script async src="https://static.addtoany.com/menu/page.js"></script>
+            <!-- AddToAny END -->
+        </div>
+    """
+    html.append(share)
 
     page = """
     <html xmlns:og="http://opengraphprotocol.org/schema/" >
