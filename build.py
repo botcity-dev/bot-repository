@@ -14,7 +14,7 @@ def generate_for_entry(deploy_path, uid, entry):
     entry["description"] = entry["description"].replace("\n", "<br>")
 
     # INTRO
-    intro = string.Template("""
+    intro = string.Template(f"""
         <div id="botName">$name</div>
         <div id="botAuthor">by <a href="$author_site">$author_name</a> on $upload_date</div>
 
@@ -36,15 +36,15 @@ def generate_for_entry(deploy_path, uid, entry):
         org = entry.get("repository_url", "").split("/")[-2]
         entry["org"] = org
         gh = string.Template(
-    """
-        <div class="div_git_repo">
-        <b>Repository:</b><br/>
-            <a href="$repository_url">
-            <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=$org&repo=$repository_name"/>
-            </a><br/>
-        <font style='font-size:12px'>* Source code may be subject to copyright, check with author for redistribution.</font>
-        </div>
-    """
+            f"""
+                <div class="div_git_repo">
+                <b>Repository:</b><br/>
+                    <a href="$repository_url">
+                    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=$org&repo=$repository_name"/>
+                    </a><br/>
+                <font style='font-size:12px'>* Source code may be subject to copyright, check with author for redistribution.</font>
+                </div>
+            """
         ).safe_substitute(**entry)
         html.append(gh)
 
@@ -63,6 +63,24 @@ def generate_for_entry(deploy_path, uid, entry):
     entry["url"] = f"https://repository.botcity.dev/bot-{uid}.html"
     upload_date_iso = "/".join(entry.get("upload_date").split("/")[::-1])
     entry["upload_date_iso"] = upload_date_iso
+
+    share = f"""
+        <div class="div_share">
+
+            <b>Share this Bot:</b><br/>
+            <!-- AddToAny BEGIN -->
+            <div class="a2a_kit a2a_kit_size_32 a2a_default_style" data-a2a-url="https://repository.botcity.dev/bot-{uid}.html" data-a2a-title="I liked this bot that I saw in the Bot Repository. Check it out.">
+                <a class="a2a_button_copy_link"></a>
+                <a class="a2a_button_linkedin"></a>
+                <a class="a2a_button_whatsapp"></a>
+                <a class="a2a_button_twitter"></a>
+                <a class="a2a_button_email"></a>
+            </div>
+            <script async src="https://static.addtoany.com/menu/page.js"></script>
+            <!-- AddToAny END -->
+        </div>
+    """
+    html.append(share)
 
     page = """
     <html xmlns:og="http://opengraphprotocol.org/schema/" >
