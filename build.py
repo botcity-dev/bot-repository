@@ -70,7 +70,7 @@ def generate_for_entry(deploy_path, uid, entry):
         </p>
         <div class="div_share">
             <!-- AddToAny BEGIN -->
-            <div class="a2a_kit a2a_kit_size_32 a2a_default_style" data-a2a-url="https://repository.botcity.dev/bot-{uid}.html" data-a2a-title="I liked this bot that I saw in the Bot Repository. Check it out.">
+            <div class="a2a_kit a2a_kit_size_32 a2a_default_style" data-a2a-url="https://repository.botcity.dev/bot-{uid}.html?utm_source=bot-repository&utm_medium=referral-copy" data-a2a-title="I liked this bot that I saw in the Bot Repository. Check it out.">
                 <a class="a2a_button_copy_link"></a>
             </div>
 
@@ -86,6 +86,14 @@ def generate_for_entry(deploy_path, uid, entry):
                 <a class="a2a_button_twitter"></a>
             </div>
 
+            <div class="a2a_kit a2a_kit_size_32 a2a_default_style" data-a2a-url="https://repository.botcity.dev/bot-{uid}.html?utm_source=bot-repository&utm_medium=referral-telegram" data-a2a-title="I liked this bot that I saw in the Bot Repository. Check it out.">
+                <a class="a2a_button_telegram"></a>
+            </div>          
+
+            <div class="a2a_kit a2a_kit_size_32 a2a_default_style" data-a2a-url="https://repository.botcity.dev/bot-{uid}.html?utm_source=bot-repository&utm_medium=referral-mastodon" data-a2a-title="I liked this bot that I saw in the Bot Repository. Check it out.">
+                <a class="a2a_button_mastodon"></a>
+            </div>
+            
             <div class="a2a_kit a2a_kit_size_32 a2a_default_style" data-a2a-url="https://repository.botcity.dev/bot-{uid}.html?utm_source=bot-repository&utm_medium=referral-email" data-a2a-title="I liked this bot that I saw in the Bot Repository. Check it out.">
                 <a class="a2a_button_email"></a>
             </div>
