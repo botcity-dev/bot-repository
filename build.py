@@ -65,15 +65,28 @@ def generate_for_entry(deploy_path, uid, entry):
     entry["upload_date_iso"] = upload_date_iso
 
     share = f"""
+        <p style="margin-top: 10px">
+            <b>Share this Bot:</b>
+        </p>
         <div class="div_share">
-
-            <b>Share this Bot:</b><br/>
             <!-- AddToAny BEGIN -->
             <div class="a2a_kit a2a_kit_size_32 a2a_default_style" data-a2a-url="https://repository.botcity.dev/bot-{uid}.html" data-a2a-title="I liked this bot that I saw in the Bot Repository. Check it out.">
                 <a class="a2a_button_copy_link"></a>
+            </div>
+
+            <div class="a2a_kit a2a_kit_size_32 a2a_default_style" data-a2a-url="https://repository.botcity.dev/bot-{uid}.html?utm_source=bot-repository&utm_medium=referral-linkedin" data-a2a-title="I liked this bot that I saw in the Bot Repository. Check it out.">
                 <a class="a2a_button_linkedin"></a>
+            </div>
+
+            <div class="a2a_kit a2a_kit_size_32 a2a_default_style" data-a2a-url="https://repository.botcity.dev/bot-{uid}.html?utm_source=bot-repository&utm_medium=referral-whatsapp" data-a2a-title="I liked this bot that I saw in the Bot Repository. Check it out.">
                 <a class="a2a_button_whatsapp"></a>
+            </div>
+
+            <div class="a2a_kit a2a_kit_size_32 a2a_default_style" data-a2a-url="https://repository.botcity.dev/bot-{uid}.html?utm_source=bot-repository&utm_medium=referral-twitter" data-a2a-title="I liked this bot that I saw in the Bot Repository. Check it out.">
                 <a class="a2a_button_twitter"></a>
+            </div>
+
+            <div class="a2a_kit a2a_kit_size_32 a2a_default_style" data-a2a-url="https://repository.botcity.dev/bot-{uid}.html?utm_source=bot-repository&utm_medium=referral-email" data-a2a-title="I liked this bot that I saw in the Bot Repository. Check it out.">
                 <a class="a2a_button_email"></a>
             </div>
             <script async src="https://static.addtoany.com/menu/page.js"></script>

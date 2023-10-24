@@ -256,6 +256,8 @@ body{
 
 .div_share{
 	margin-top:10px;
+	display: flex;
+	flex-direction: row;
 }
 
 /**
