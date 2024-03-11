@@ -728,5 +728,27 @@
         "license": "MIT",
         "upload_date": "02/20/2023",
         "rank": 0.99
+    },
+    {
+        "name": "Web bot with Gmail and Google Sheets",
+        "description_short": "This automation reads the zip codes received, consults them, saves the information in a spreadsheet, and sends an email to notify anyone involved.",
+        "description": "The RPA automation project was developed with Python using the BotCity framework. This automation reads the zip codes received, consults the "Correios do Brasil" website, saves the information in a Google Sheets spreadsheet, and sends an email to notify you that the registration executed well.",
+        "tags": ["web", "python", "gmail", "google", "spreadsheet"],
+        "programming_language": "python",
+        "technology": ["botcity"],
+        "OS": ["Windows", "Linux"],
+        "thumbnail_url": "https://i.imgur.com/2499Vln.png",
+        "youtube_video": "",
+        "youtube_width": 560,
+        "youtube_height": 315,
+        "author_name": "Morganna Giovanelli",
+        "author_site": "https://www.linkedin.com/in/morgannadev/",
+        "repository_name": "rpa-email-google-sheets",
+        "repository_url": "https://github.com/morgannadev/rpa-email-google-sheets",
+        "company_name": "BotCity",
+        "company_site": "https://www.botcity.dev/",
+        "license": "MIT",
+        "upload_date": "03/11/2023",
+        "rank": 0.99
     }
 ]
