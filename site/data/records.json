@@ -750,5 +750,27 @@
         "license": "MIT",
         "upload_date": "03/11/2023",
         "rank": 0.99
+    },
+    {
+        "name": "BotInfomoney",
+        "description_short": "The automation collects information on the Infomoney website, searches the index and shares value on Google finance, and generates a demonstrative spreadsheet.",
+        "description": "The automation collects information on the most significant rises in the stock market through the Infomoney website, searches the index and value of shares on Google Finance, and generates a demonstrative spreadsheet.",
+        "tags": ["python", "botcity", "rpa"],
+        "programming_language": "python",
+        "technology": ["botcity"],
+        "OS": ["Windows", "Linux"],
+        "thumbnail_url": "https://i.imgur.com/vbzzebw.png",
+        "youtube_video": "",
+        "youtube_width": 560,
+        "youtube_height": 315,
+        "author_name": "Kleverson C. Lopes",
+        "author_site": "https://www.linkedin.com/in/kleverson-lopes-2a83891b5/",
+        "repository_name": "BotInfomoney",
+        "repository_url": "https://github.com/KleversonLopes/BotInfomoney",
+        "company_name": "",
+        "company_site": "",
+        "license": "Freeware",
+        "upload_date": "03/14/2023",
+        "rank": 0.99
     }
 ]
