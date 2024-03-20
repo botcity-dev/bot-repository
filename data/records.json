@@ -727,7 +727,7 @@
         "company_site": "https://www.botcity.dev/",
         "license": "MIT",
         "upload_date": "02/20/2023",
-        "rank": 0.99
+        "rank": 0.98
     },
     {
         "name": "Web bot with Gmail and Google Sheets",
@@ -749,7 +749,7 @@
         "company_site": "https://www.botcity.dev/",
         "license": "MIT",
         "upload_date": "03/11/2023",
-        "rank": 0.99
+        "rank": 0.97
     },
     {
         "name": "BotInfomoney",
@@ -772,5 +772,27 @@
         "license": "Freeware",
         "upload_date": "03/14/2023",
         "rank": 0.99
+    },
+    {
+        "name": "Bot: Product Registration",
+        "description_short": "The automation registers products in a desktop system called Fakturama.",
+        "description": "The automation registers products from a JSON file in a desktop system called Fakturama, using Python and computer vision. Then, it sends an alert to the BotCity Orchestrator and registers a log about the product.",
+        "tags": ["python", "botcity", "rpa", "computer vision"],
+        "programming_language": "python",
+        "technology": ["botcity", "computer vision"],
+        "OS": ["Windows", "Linux"],
+        "thumbnail_url": "https://i.imgur.com/g2tsoeL.png",
+        "youtube_video": "",
+        "youtube_width": 560,
+        "youtube_height": 315,
+        "author_name": "Morganna Giovanelli",
+        "author_site": "https://www.linkedin.com/in/morgannadev/",
+        "repository_name": "rpa-cadastro-de-produtos",
+        "repository_url": "https://github.com/morgannadev/rpa-cadastro-de-produtos",
+        "company_name": "BotCity",
+        "company_site": "https://www.botcity.dev/",
+        "license": "MIT",
+        "upload_date": "03/20/2024",
+        "rank": 0.98
     }
 ]
