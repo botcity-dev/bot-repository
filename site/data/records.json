@@ -794,5 +794,27 @@
         "license": "MIT",
         "upload_date": "03/20/2024",
         "rank": 0.98
+    },
+    {
+        "name": "Top Stocks B3",
+        "description_short": "A small algorithm that extracts and filters current stocks on the Brazilian stock exchange (B3).",
+        "description": "Automation that extracts and filters current stocks on the Brazilian stock exchange (B3) based on data from the fundamentus.com.br website that correspond to the following criteria: P/E between 3 and 10; P/BV between 0.5 and 2; Dividend Yield between 7% and 14%; ROE between 15% and 30%; Liquidity greater than 1M.",
+        "tags": ["automation", "web scrapping", "stocks", "financial"],
+        "programming_language": "python",
+        "technology": ["BotCity", "Selenium", "Pandas"],
+        "OS": ["Windows", "Linux"],
+        "thumbnail_url": "https://i.imgur.com/EJ2OuAy.png",
+        "youtube_video": "",
+        "youtube_width": 560,
+        "youtube_height": 315,
+        "author_name": "Will Pedroso",
+        "author_site": "https://github.com/willypedroso",
+        "repository_name": "top-stocks-b3",
+        "repository_url": "https://github.com/willypedroso/top-stocks-b3",
+        "company_name": "",
+        "company_site": "",
+        "license": "Freeware",
+        "upload_date": "03/26/2024",
+        "rank": 0.99
     }
 ]
