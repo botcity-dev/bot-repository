@@ -683,7 +683,7 @@
         "company_site": "https://www.botcity.dev/",
         "license": "MIT",
         "upload_date": "10/11/2023",
-        "rank": 0.98
+        "rank": 0.97
     },
     {
         "name": "Web Form Filling",
@@ -705,7 +705,7 @@
         "company_site": "",
         "license": "Proprietary",
         "upload_date": "02/20/2023",
-        "rank": 0.99
+        "rank": 0.98
     },
     {
         "name": "OrangeHRM login with Twilio WhatsApp",
@@ -727,7 +727,7 @@
         "company_site": "https://www.botcity.dev/",
         "license": "MIT",
         "upload_date": "02/20/2023",
-        "rank": 0.98
+        "rank": 0.97
     },
     {
         "name": "Web bot with Gmail and Google Sheets",
