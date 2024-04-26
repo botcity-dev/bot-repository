@@ -771,7 +771,7 @@
         "company_site": "",
         "license": "Freeware",
         "upload_date": "03/14/2023",
-        "rank": 0.99
+        "rank": 0.98
     },
     {
         "name": "Bot: Product Registration",
@@ -793,7 +793,7 @@
         "company_site": "https://www.botcity.dev/",
         "license": "MIT",
         "upload_date": "03/20/2024",
-        "rank": 0.98
+        "rank": 0.97
     },
     {
         "name": "Top Stocks B3",
@@ -815,6 +815,50 @@
         "company_site": "",
         "license": "Freeware",
         "upload_date": "03/26/2024",
+        "rank": 0.98
+    },
+    {
+        "name": "RPAChallenge_UiPathREFrameworkStructure",
+        "description_short": "Solve the RPA challenge using a structure similar to the UiPath REFramework.",
+        "description": "This is an automation that fills in the RPA Challenge form based on information from Excel. It is made based on the structure/project template from the UiPath REFramework, applying its process in a basic way.",
+        "tags": ["BotCity", "Python", "RPAChallenge", "UiPathReframework"],
+        "programming_language": "python",
+        "technology": ["BotCity", "Selenium", "Pandas"],
+        "OS": ["Windows"],
+        "thumbnail_url": "https://i.imgur.com/AxpDJu1.jpeg",
+        "youtube_video": "",
+        "youtube_width": 560,
+        "youtube_height": 315,
+        "author_name": "Juan Luis Reyes",
+        "author_site": "www.linkedin.com/in/juan-luis-reyes-a59071168",
+        "repository_name": "RPAChallenge_UiPathREFramework",
+        "repository_url": "https://github.com/JuanLuisReyes/RPAChallenge_UiPathREFramework",
+        "company_name": "",
+        "company_site": "",
+        "license": "No license",
+        "upload_date": "04/26/2024",
+        "rank": 0.99
+    },
+    {
+        "name": "Bot: dev.to analysis",
+        "description_short": "The automation scrapes the dev.to website, fetching data from the week's most popular articles, and generates a CSV with this information.",
+        "description": "The automation performs web scraping on the dev.to website, extracting data from the week's most popular articles, such as title, number of reactions, comments, and tags and generates a CSV with this data. It then creates a dashboard using Streamlit with the data obtained from the website.",
+        "tags": ["Python", "web"],
+        "programming_language": "python",
+        "technology": ["BotCity"],
+        "OS": ["Windows"],
+        "thumbnail_url": "https://i.imgur.com/GCJGyrY.png",
+        "youtube_video": "",
+        "youtube_width": 560,
+        "youtube_height": 315,
+        "author_name": "Lucas Cruz",
+        "author_site": "https://github.com/olucascruz",
+        "repository_name": "dev_to_analysis",
+        "repository_url": "https://github.com/olucascruz/dev_to_analysis",
+        "company_name": "",
+        "company_site": "",
+        "license": "MIT",
+        "upload_date": "04/26/2024",
         "rank": 0.99
     }
 ]
